@@ -1,0 +1,12 @@
+User-agent: *
+
+Disallow: /ms/en_SE/
+
+#Search
+Disallow: */search/
+
+#NUXT & API
+Disallow: */_nuxt/
+Disallow: */api-host/*
+
+Sitemap: /sitemaps/sitemap.xml

@@ -1,0 +1,39 @@
+{
+  "name": "nuxt3-app",
+  "private": true,
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "3001"
+    }
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^5.2.6",
+    "nuxt": "3.0.0",
+    "sass": "^1.56.2"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "@types/marked": "^4.0.8",
+    "@types/matter-js": "^0.18.2",
+    "axios": "^1.2.1",
+    "bootstrap": "5.2.3",
+    "bootstrap-icons": "^1.10.2",
+    "highlight.js": "^11.7.0",
+    "lottie-web": "^5.9.6",
+    "marked": "^4.2.12",
+    "matter-js": "^0.18.0",
+    "openai": "^3.2.1",
+    "uuid": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=14.6.0"
+  }
+}
